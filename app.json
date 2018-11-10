@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/log/log",
+    "pages/index/index",
+   "pages/third/third"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "年宝日记",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar":{
+    "list":[
+      {
+        "pagePath":"pages/index/index",
+        "text":"indexPage",
+        "iconPath":"pages/images/wait.png",
+        "selectedIconPath":"pages/images/left.png"
+      },
+      {
+        "pagePath":"pages/log/log",
+        "text":"天气",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/wait.png"
+      },
+      {
+        "pagePath": "pages/third/third",
+        "text": "3",
+        "iconPath": "pages/images/weather.png",
+        "selectedIconPath": "pages/images/wait.png"
+      }]
+  },
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug":true
+}

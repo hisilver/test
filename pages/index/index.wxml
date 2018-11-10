@@ -1,0 +1,10 @@
+<view class='container'>
+  <view class='card'>
+   <button bindtap="bindViewTap" type="submit">选择图片</button>
+  <image mode="aspectFit" src="{{img}}"></image>
+  </view>
+  <!-- 编辑 -->
+
+     
+
+</view>
